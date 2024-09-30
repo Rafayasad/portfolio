@@ -10,17 +10,26 @@ const INFO = {
 
 	socials: {
 		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		github: "https://github.com/Rafayasad",
+		linkedin: "https://www.linkedin.com/in/rafay-asad-87b39a213/",
+		instagram: "https://www.instagram.com/rafayasad_?igsh=cmowa2JoZmwydXlj",
+		stackoverflow: "https://stackoverflow.com/users/12487652/rafayasad",
+		facebook: "https://www.facebook.com/rafay.asad.1?mibextid=ZbWKwL",
+		medium: "https://medium.com/@asadrafay998",
+		devCommunity: "https://dev.to/rafayasad",
 	},
 
 	homepage: {
-		title: "JavaScript Full-stack web and mobile app developer.",
+		title: "Hello, ",
+		sub_title: "I am Rafay Asad.",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"Experienced Software Engineer, focusing on both front-end and back-end technologies. I've successfully delivered enterprise applications for leading organizations across various regions. My curiosity for new technologies has led me to work on diverse projects, including crafting Chrome extensions, developing JavaScript modules, and building interactive web applications and full-stack solutions. Every project presents a new opportunity to grow my skills and drive innovation. Let’s connect and explore how we can collaborate on exciting projects together!",
+
+		project_title: "My Key Contributions, ",
+		project_sub_title: "Across Various Projects",
+
+		skill_title: "My Skills, ",
+		skill_sub_title: "Tech Stack",
 	},
 
 	about: {
@@ -88,14 +97,14 @@ const INFO = {
 	projectDetails: [
 		{
 			id: 1,
-			title: 'Abu Dhabi Data - Portal - Story',
+			title: "Abu Dhabi Data - Portal - Story",
 			desc: "The Data.AbuDhabi project is a comprehensive open data platform launched by the Abu Dhabi Digital Authority. It aims to enhance transparency, innovation, and collaboration by providing access to a vast array of data sets across various sectors, including health, education, transportation, and environment. This initiative supports Abu Dhabi's vision of becoming a leading global smart city. The platform enables government entities, businesses, researchers, and the public to leverage data for informed decision-making, driving economic growth, and improving the quality of life for residents. Key features of Data.AbuDhabi include user-friendly data visualization tools, APIs for seamless integration, and robust data governance practices to ensure data accuracy and security. By fostering an ecosystem of data-driven innovation, Data.AbuDhabi empowers stakeholders to create impactful solutions that address urban challenges, promote sustainability, and enhance public services.",
 			keys: [
 				"● Developed the front-end interface for the Abu Dhabi Portal - UAE government project using React.js.",
 				"● Utilized Bootstrap's pre-built components and utilities to accelerate the development process.",
 				"● Enhanced user interaction and engagement through dynamic content loading and manipulation.",
 				"● Customized Drupal modules to support the specific requirements of the platform, including data categorization, user management, and API integrations.",
-				"● Focused on delivering a seamless and engaging user experience with fast load times, interactive features, and a clean design."
+				"● Focused on delivering a seamless and engaging user experience with fast load times, interactive features, and a clean design.",
 			],
 			photos: {
 				photoOne: photos.p2,
@@ -104,18 +113,18 @@ const INFO = {
 			gifs: {
 				gifOne: gifs.g1,
 				gifTwo: gifs.g2,
-			}
+			},
 		},
 		{
 			id: 2,
-			title: 'Abu Dhabi Data - Portal - Storysss',
+			title: "Abu Dhabi Data - Portal - Storysss",
 			desc: "The Data.AbuDhabi project is a comprehensive open data platform launched by the Abu Dhabi Digital Authority. It aims to enhance transparency, innovation, and collaboration by providing access to a vast array of data sets across various sectors, including health, education, transportation, and environment. This initiative supports Abu Dhabi's vision of becoming a leading global smart city. The platform enables government entities, businesses, researchers, and the public to leverage data for informed decision-making, driving economic growth, and improving the quality of life for residents. Key features of Data.AbuDhabi include user-friendly data visualization tools, APIs for seamless integration, and robust data governance practices to ensure data accuracy and security. By fostering an ecosystem of data-driven innovation, Data.AbuDhabi empowers stakeholders to create impactful solutions that address urban challenges, promote sustainability, and enhance public services.",
 			keys: [
 				"● Developed the front-end interface for the Abu Dhabi Portal - UAE government project using React.js.",
 				"● Utilized Bootstrap's pre-built components and utilities to accelerate the development process.",
 				"● Enhanced user interaction and engagement through dynamic content loading and manipulation.",
 				"● Customized Drupal modules to support the specific requirements of the platform, including data categorization, user management, and API integrations.",
-				"● Focused on delivering a seamless and engaging user experience with fast load times, interactive features, and a clean design."
+				"● Focused on delivering a seamless and engaging user experience with fast load times, interactive features, and a clean design.",
 			],
 			photos: {
 				photoOne: photos.p2,
@@ -124,9 +133,9 @@ const INFO = {
 			gifs: {
 				gifOne: gifs.g1,
 				gifTwo: gifs.g2,
-			}
-		}
-	]
+			},
+		},
+	],
 };
 
 export default INFO;
