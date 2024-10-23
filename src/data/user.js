@@ -23,13 +23,16 @@ const INFO = {
 		title: "Hello, ",
 		sub_title: "I am Rafay Asad.",
 		description:
-			"Experienced Software Engineer, focusing on both front-end and back-end technologies. I've successfully delivered enterprise applications for leading organizations across various regions. My curiosity for new technologies has led me to work on diverse projects, including crafting Chrome extensions, developing JavaScript modules, and building interactive web applications and full-stack solutions. Every project presents a new opportunity to grow my skills and drive innovation. Let’s connect and explore how we can collaborate on exciting projects together!",
+			"Experienced Software Engineer, focusing on both front-end and back-end technologies. I've successfully delivered enterprise applications for leading organizations across various regions. My curiosity for new technologies has led me to work on diverse projects, including developing JavaScript modules, and building interactive web applications and full-stack solutions. Every project presents a new opportunity to grow my skills and drive innovation. Let’s connect and explore how we can collaborate on exciting projects together!",
 
 		project_title: "My Key Contributions, ",
 		project_sub_title: "Across Various Projects",
 
 		skill_title: "My Skills, ",
 		skill_sub_title: "Tech Stack",
+
+		blog_title: "My Blogs, ",
+		blog_sub_title: "Exploring Various Topics",
 	},
 
 	about: {
@@ -46,49 +49,71 @@ const INFO = {
 
 	projects: [
 		{
-			id: 1,
+			id: "1",
 			title: "Abu Dhabi Data - Portal - Story",
 			description:
-				"Embrace the unlimited potential of a Data-Driven Abu Dhabi.",
+				"I contributed to this project, delivering responsive and user-friendly interfaces with API's intregations.",
 			// logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			logo: photos.p1,
 			linkText: "View Project",
 			link: "https://github.com",
-			navToPage: "/projectDetails/abuDhabiPortal",
+			navToPage: "/project-details/1",
 		},
 
 		{
-			title: "Project 2",
+			id: "2",
+			title: "Abu Dhabi Data - Open Data",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"I contributed to this project from scratch, creating a fully functional and interactive platform using React.js",
+			logo: photos.p1,
+			linkText: "View Project",
+			link: "https://github.com",
+			navToPage: "/project-details/2",
+		},
+
+		{
+			id: "3",
+			title: "Godiggo - Development Services - UAE",
+			description:
+				"I contributed to this project, creating a payments intregation and hosting services using Node.js",
+			linkText: "View Project",
+			logo: photos.p4,
+			link: "https://github.com",
+			navToPage: "/project-details/3",
+		},
+		{
+			id: "4",
+			title: "Fir & Fight - Fitness Plans",
+			description:
+				"I contributed to this project by integrating API services and implementing an authentication module using Node.js and React.js",
+			logo: photos.p5,
 			linkText: "View Project",
 			link: "https://github.com",
 		},
-
 		{
-			title: "Project 3",
+			id: "5",
+			title: "Ilyas Salon",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			logo: photos.p6,
 			linkText: "View Project",
 			link: "https://github.com",
 		},
-
 		{
-			title: "Project 4",
+			id: "6",
+			title: "Peng Salon & Spa",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"I contributed to this project by integrating API services and implementing an authentication module using Node.js and React.js",
+			logo: photos.p7,
 			linkText: "View Project",
 			link: "https://github.com",
 		},
-
 		{
-			title: "Project 5",
+			id: "7",
+			title: "Fir & Fight - Fitness Plans",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo: photos.p5,
 			linkText: "View Project",
 			link: "https://github.com",
 		},
@@ -96,9 +121,9 @@ const INFO = {
 
 	projectDetails: [
 		{
-			id: 1,
-			title: "Abu Dhabi Data - Portal - Story",
-			desc: "The Data.AbuDhabi project is a comprehensive open data platform launched by the Abu Dhabi Digital Authority. It aims to enhance transparency, innovation, and collaboration by providing access to a vast array of data sets across various sectors, including health, education, transportation, and environment. This initiative supports Abu Dhabi's vision of becoming a leading global smart city. The platform enables government entities, businesses, researchers, and the public to leverage data for informed decision-making, driving economic growth, and improving the quality of life for residents. Key features of Data.AbuDhabi include user-friendly data visualization tools, APIs for seamless integration, and robust data governance practices to ensure data accuracy and security. By fostering an ecosystem of data-driven innovation, Data.AbuDhabi empowers stakeholders to create impactful solutions that address urban challenges, promote sustainability, and enhance public services.",
+			id: "1",
+			title: "My Significant Contribution",
+			desc: "The Data.AbuDhabi project is a comprehensive open data platform launched by the Abu Dhabi Digital Authority. My significant contribution to this project using the React.js framework. My focus was on making the portal functional, responsive, and user-friendly, ensuring an optimal user experience. I integrated various Drupal APIs to retrieve data from different departments and Through my work, I enhanced the portal's overall performance and usability, aligning with the project’s goals of providing easy access to valuable data for the users.",
 			keys: [
 				"● Developed the front-end interface for the Abu Dhabi Portal - UAE government project using React.js.",
 				"● Utilized Bootstrap's pre-built components and utilities to accelerate the development process.",
@@ -116,9 +141,9 @@ const INFO = {
 			},
 		},
 		{
-			id: 2,
-			title: "Abu Dhabi Data - Portal - Storysss",
-			desc: "The Data.AbuDhabi project is a comprehensive open data platform launched by the Abu Dhabi Digital Authority. It aims to enhance transparency, innovation, and collaboration by providing access to a vast array of data sets across various sectors, including health, education, transportation, and environment. This initiative supports Abu Dhabi's vision of becoming a leading global smart city. The platform enables government entities, businesses, researchers, and the public to leverage data for informed decision-making, driving economic growth, and improving the quality of life for residents. Key features of Data.AbuDhabi include user-friendly data visualization tools, APIs for seamless integration, and robust data governance practices to ensure data accuracy and security. By fostering an ecosystem of data-driven innovation, Data.AbuDhabi empowers stakeholders to create impactful solutions that address urban challenges, promote sustainability, and enhance public services.",
+			id: "2",
+			title: "My Significant Contribution",
+			desc: "The Data.AbuDhabi Open Data project is a vast data collection from various departments within the city, launched by the Abu Dhabi Digital Authority. My contribution on the Abu Dhabi Open Data Portal, using React.js to build the entire project. I integrated APIs and implemented department-wise structural data, allowing users to filter and search by department and its entities. I also added a feedback feature for multiple government users to share their input and provided Arabic language support, enabling users to switch between English and Arabic accordingly.",
 			keys: [
 				"● Developed the front-end interface for the Abu Dhabi Portal - UAE government project using React.js.",
 				"● Utilized Bootstrap's pre-built components and utilities to accelerate the development process.",
@@ -131,7 +156,47 @@ const INFO = {
 				photoTwo: photos.p3,
 			},
 			gifs: {
-				gifOne: gifs.g1,
+				gifOne: gifs.g3,
+				gifTwo: gifs.g2,
+			},
+		},
+		{
+			id: "3",
+			title: "My Significant Contribution",
+			desc: "GoDiggo is a dynamic digital platform that offers a comprehensive range of hosting services and packages tailored to meet the diverse needs of businesses and individuals. My Contribution on the GoDiggo portfolio website, I developed the Plans Service for hosting and packages, utilized the Node.js framework with Express to create a scalable backend architecture. Additionally, I integrated Stripe as a payment gateway, ensuring secure and efficient payment processing for users. To manage and capture data, I implemented MongoDB, leveraging its document-based infrastructure for optimal performance and flexibility. My contributions significantly enhanced the website's functionality and user experience.",
+			keys: [
+				"● Developed the front-end interface for the Abu Dhabi Portal - UAE government project using React.js.",
+				"● Utilized Bootstrap's pre-built components and utilities to accelerate the development process.",
+				"● Enhanced user interaction and engagement through dynamic content loading and manipulation.",
+				"● Customized Drupal modules to support the specific requirements of the platform, including data categorization, user management, and API integrations.",
+				"● Focused on delivering a seamless and engaging user experience with fast load times, interactive features, and a clean design.",
+			],
+			photos: {
+				photoOne: photos.p2,
+				photoTwo: photos.p3,
+			},
+			gifs: {
+				gifOne: gifs.g3,
+				gifTwo: gifs.g2,
+			},
+		},
+		{
+			id: "4",
+			title: "My Significant Contribution",
+			desc: "GoDiggo is a dynamic digital platform that offers a comprehensive range of hosting services and packages tailored to meet the diverse needs of businesses and individuals. My Contribution on the GoDiggo portfolio website, I developed the Plans Service for hosting and packages, utilized the Node.js framework with Express to create a scalable backend architecture. Additionally, I integrated Stripe as a payment gateway, ensuring secure and efficient payment processing for users. To manage and capture data, I implemented MongoDB, leveraging its document-based infrastructure for optimal performance and flexibility. My contributions significantly enhanced the website's functionality and user experience.",
+			keys: [
+				"● Developed the front-end interface for the Abu Dhabi Portal - UAE government project using React.js.",
+				"● Utilized Bootstrap's pre-built components and utilities to accelerate the development process.",
+				"● Enhanced user interaction and engagement through dynamic content loading and manipulation.",
+				"● Customized Drupal modules to support the specific requirements of the platform, including data categorization, user management, and API integrations.",
+				"● Focused on delivering a seamless and engaging user experience with fast load times, interactive features, and a clean design.",
+			],
+			photos: {
+				photoOne: photos.p2,
+				photoTwo: photos.p3,
+			},
+			gifs: {
+				gifOne: gifs.g3,
 				gifTwo: gifs.g2,
 			},
 		},

@@ -22,8 +22,13 @@ const Project = (props) => {
 							<div className="project-link-icon">
 								<FontAwesomeIcon icon={faLink} />
 							</div>
-							<Link to={link} onClick={(e) => e.stopPropagation()}>
-								<div className="project-link-text">{linkText}</div>
+							<Link
+								to={link}
+								onClick={(e) => e.stopPropagation()}
+							>
+								<div className="project-link-text">
+									{linkText}
+								</div>
 							</Link>
 						</div>
 					</div>

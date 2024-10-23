@@ -70,6 +70,372 @@ const Homepage = () => {
 		boxShadow: stayLogo ? "0px 4px 10px rgba(0, 0, 0, 0.25)" : "none",
 	};
 
+	const myTechStack = () => {
+		return (
+			<div className="flex gap-4 flex-wrap px-10">
+				<div className="flex gap-4 flex-wrap px-2 pt-6">
+					<a
+						href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+						target="_blank"
+						rel="noreferrer"
+					>
+						{" "}
+						<img
+							src="https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000"
+							alt="javascript"
+							width="60"
+							height="60"
+						/>
+					</a>
+					<a
+						href="https://www.typescriptlang.org/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							src="https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000"
+							alt="typescript"
+							width="60"
+							height="60"
+						/>
+					</a>
+					<a
+						href="https://reactjs.org/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							src="https://img.icons8.com/?size=100&id=bzf0DqjXFHIW&format=png&color=000000"
+							alt="react"
+							width="60"
+							height="60"
+						/>
+					</a>
+					<a
+						href="https://angular.io/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							src="https://img.icons8.com/?size=100&id=71257&format=png&color=000000"
+							alt="angular"
+							width="60"
+							height="60"
+						/>
+					</a>
+					<a
+						href="https://nodejs.org/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							src="https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000"
+							alt="nodejs"
+							width="60"
+							height="60"
+						/>
+					</a>
+					<a
+						href="https://nestjs.com/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							src="https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000"
+							alt="nestjs"
+							width="60"
+							height="60"
+						/>
+					</a>
+					<a
+						href="https://redux.js.org/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							src="https://img.icons8.com/?size=100&id=A6r5yddU9uA0&format=png&color=000000"
+							alt="redux"
+							width="60"
+							height="60"
+						/>
+					</a>
+					<a
+						href="https://recoiljs.org/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							src="https://img.icons8.com/?size=100&id=EXZGX2xYvaYn&format=png&color=000000"
+							alt="recoil"
+							width="60"
+							height="60"
+						/>
+					</a>
+					<a
+						href="https://reactnative.dev/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							src="https://img.icons8.com/?size=100&id=NppcscWQsmAq&format=png&color=000000"
+							alt="reactnative"
+							width="60"
+							height="60"
+						/>
+					</a>{" "}
+					<a
+						href="https://graphql.org"
+						target="_blank"
+						rel="noreferrer"
+					>
+						{" "}
+						<img
+							src="https://img.icons8.com/?size=100&id=XgY3SKn2Tlao&format=png&color=000000"
+							alt="graphql"
+							width="60"
+							height="60"
+						/>{" "}
+					</a>
+					<a href="https://mui.com/" target="_blank" rel="noreferrer">
+						<img
+							src="https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg"
+							alt="material-ui"
+							width="60"
+							height="60"
+						/>
+					</a>
+					<a
+						href="https://ant.design/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							src="https://raw.githubusercontent.com/devicons/devicon/master/icons/antdesign/antdesign-original.svg"
+							alt="antdesign"
+							width="60"
+							height="60"
+						/>
+					</a>
+				</div>
+				<div className="flex gap-4 flex-wrap px-2 pt-6">
+					<a
+						href="https://tailwindcss.com/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							src="https://img.icons8.com/?size=100&id=x7XMNGh2vdqA&format=png&color=000000"
+							alt="tailwindcss"
+							width="60"
+							height="60"
+						/>
+					</a>
+					<a
+						href="https://getbootstrap.com/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							src="https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000"
+							alt="bootstrap"
+							width="60"
+							height="60"
+						/>
+					</a>
+					<a
+						href="https://shadcn.dev/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAjouFTAB2PcXfnfkjy1SUjkaMeaymXnzoOA&s"
+							alt="shadcnui"
+							width="60"
+							height="60"
+						/>
+					</a>
+					<a
+						href="https://chakra-ui.com/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							src="https://img.icons8.com/?size=100&id=r9QJ0VFFrn7T&format=png&color=000000"
+							alt="chakraui"
+							width="60"
+							height="60"
+						/>
+					</a>
+					<a
+						href="https://styled-components.com/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png"
+							alt="styledcomponents"
+							width="60"
+							height="60"
+						/>
+					</a>
+					<a
+						href="https://aws.amazon.com/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							src="https://img.icons8.com/?size=100&id=33039&format=png&color=000000"
+							alt="AWS"
+							width="60"
+							height="60"
+						/>
+					</a>
+					<a
+						href="https://www.docker.com/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							src="https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000"
+							alt="Docker"
+							width="60"
+							height="60"
+						/>
+					</a>
+					<a
+						href="https://www.nginx.com"
+						target="_blank"
+						rel="noreferrer"
+					>
+						{" "}
+						<img
+							src="https://img.icons8.com/?size=100&id=t2x6DtCn5Zzx&format=png&color=000000"
+							alt="nginx"
+							width="60"
+							height="60"
+						/>{" "}
+					</a>{" "}
+					<a
+						href="https://heroku.com"
+						target="_blank"
+						rel="noreferrer"
+					>
+						{" "}
+						<img
+							src="https://img.icons8.com/?size=100&id=31085&format=png&color=000000"
+							alt="heroku"
+							width="60"
+							height="60"
+						/>{" "}
+					</a>
+					<a
+						href="https://firebase.google.com/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						{" "}
+						<img
+							src="https://img.icons8.com/?size=100&id=62452&format=png&color=000000"
+							alt="firebase"
+							width="60"
+							height="60"
+						/>{" "}
+					</a>
+					<a
+						href="https://git-scm.com/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						{" "}
+						<img
+							src="https://img.icons8.com/?size=100&id=3tC9EQumUAuq&format=png&color=000000"
+							alt="git"
+							width="60"
+							height="60"
+						/>{" "}
+					</a>
+					<a
+						href="https://about.gitlab.com/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						{" "}
+						<img
+							src="https://img.icons8.com/?size=100&id=34886&format=png&color=000000"
+							alt="git"
+							width="60"
+							height="60"
+						/>{" "}
+					</a>
+				</div>
+				<div className="flex justify-center items-center w-full gap-4 px-2 pt-6">
+					<a
+						href="https://www.atlassian.com/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						{" "}
+						<img
+							src="https://img.icons8.com/?size=100&id=oROcPah5ues6&format=png&color=000000"
+							alt="git"
+							width="60"
+							height="60"
+						/>{" "}
+					</a>
+					<a
+						href="https://app.asana.com/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						{" "}
+						<img
+							src="https://img.icons8.com/?size=100&id=ookJ5efQKjnm&format=png&color=000000"
+							alt="git"
+							width="60"
+							height="60"
+						/>{" "}
+					</a>
+					<a
+						href="https://www.mongodb.com/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							src="https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000"
+							alt="mongodb"
+							width="60"
+							height="60"
+						/>
+					</a>
+					<a
+						href="https://www.postgresql.org/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							src="https://img.icons8.com/?size=100&id=38561&format=png&color=000000"
+							alt="postgresql"
+							width="60"
+							height="60"
+						/>
+					</a>
+					<a
+						href="https://www.mysql.com/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							src="https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000"
+							alt="mysql"
+							width="60"
+							height="60"
+						/>
+					</a>
+				</div>
+			</div>
+		);
+	};
+
 	return (
 		<React.Fragment>
 			<Helmet>
@@ -118,16 +484,6 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-socials">
-							{/* <a
-								href={INFO.socials.twitter}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faTwitter}
-									className="homepage-social-icon"
-								/>
-							</a> */}
 							<a
 								href={INFO.socials.github}
 								target="_blank"
@@ -192,79 +548,30 @@ const Homepage = () => {
 
 						{/* my tech stack */}
 						<div className="text-2xl font-black yellowGrad mt-10">
-									{INFO.homepage.skill_title}
-								</div>
-								<div className="title-two homepage-title blueGrad">
-									{INFO.homepage.skill_sub_title}
-								</div>
-						<div className="">
-							<div className="flex gap-4 flex-wrap px-4 py-1">
-								<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a>
-								<a href="https://www.typescriptlang.org/" target="_blank">
-								<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/></a>
-								<a href="https://reactjs.org/" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
-</a>
-<a href="https://angular.io/" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg" alt="angular" width="40" height="40"/>
-</a><a href="https://vuejs.org/" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/>
-</a><a href="https://nodejs.org/" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/>
-</a><a href="https://nestjs.com/" target="_blank">
-  <img src="https://www.vhv.rs/dpng/d/498-4989583_nestjs-logo-hd-png-download.png" alt="nestjs" width="40" height="40"/>
-</a><a href="https://redux.js.org/" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/>
-</a><a href="https://recoiljs.org/" target="_blank">
-  <img src="https://logowik.com/content/uploads/images/recoil6319.logowik.com.webp" alt="recoil" width="50" height="40"/>
-</a><a href="https://reactnative.dev/" target="_blank">
-  <img src="https://www.nicepng.com/png/detail/222-2224978_how-react-native-works-react-native-logo-png.png" alt="reactnative" width="60" height="50"/>
-</a> <a href="https://graphql.org" target="_blank"> <img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" width="40" height="40"/> </a>
-<a href="https://mui.com/" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg" alt="material-ui" width="40" height="40"/>
-</a><a href="https://ant.design/" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/antdesign/antdesign-original.svg" alt="antdesign" width="40" height="40"/>
-</a><a href="https://tailwindcss.com/" target="_blank">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeKPw4CK4jcH7udsFHZdiB3iIOuI3fUCsxUZosXy4Y1yd25NA-dzCBPrSDIhg1BwObl3w&usqp=CAU" alt="tailwindcss" width="40" height="40"/>
-</a><a href="https://getbootstrap.com/" target="_blank">
-  <img src="https://e7.pngegg.com/pngimages/391/430/png-clipart-bootstrap-full-logo-tech-companies-thumbnail.png" alt="bootstrap" width="40" height="40"/>
-</a><a href="https://shadcn.dev/" target="_blank">
-  <img src="https://cdn.illacloud.com/illa-website/blog/shadcn-ui-2024/cover.png" alt="shadcnui" width="40" height="40"/>
-</a><a href="https://chakra-ui.com/" target="_blank">
-  <img src="https://miro.medium.com/v2/resize:fit:800/1*8hhfdEqRkRQSaJrJlx60zg.png" alt="chakraui" width="40" height="40"/>
-</a><a href="https://styled-components.com/" target="_blank">
-  <img src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png" alt="styledcomponents" width="40" height="40"/>
-</a>
-<a href="https://aws.amazon.com/" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="40" height="40"/>
-</a><a href="https://azure.microsoft.com/" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original-wordmark.svg" alt="Azure" width="40" height="40"/>
-</a><a href="https://cloud.google.com/" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original-wordmark.svg" alt="Google Cloud" width="40" height="40"/>
-</a><a href="https://www.docker.com/" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="Docker" width="40" height="40"/>
-</a><a href="https://www.nginx.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> <a href="https://heroku.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a><a href="https://firebase.google.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a><a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
-<a href="https://www.mongodb.com/" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/>
-</a><a href="https://www.postgresql.org/" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/>
-</a><a href="https://www.mysql.com/" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
-</a>
-							</div>
+							{INFO.homepage.skill_title}
 						</div>
+						<div className="title-two homepage-title blueGrad">
+							{INFO.homepage.skill_sub_title}
+						</div>
+						<div className="my-4">{myTechStack()}</div>
 						<div className="text-3xl font-black yellowGrad mt-10">
-									{INFO.homepage.project_title}
-								</div>
-								<div className="title homepage-title blueGrad">
-									{INFO.homepage.project_sub_title}
-								</div>
+							{INFO.homepage.project_title}
+						</div>
+						<div className="title homepage-title blueGrad">
+							{INFO.homepage.project_sub_title}
+						</div>
 						<div className="homepage-projects">
 							<AllProjects />
 						</div>
 
 						<div className="homepage-after-title">
 							<div className="homepage-articles">
+								<div className="text-2xl font-black yellowGrad mt-10">
+									{INFO.homepage.blog_title}
+								</div>
+								<div className="title-two homepage-title blueGrad">
+									{INFO.homepage.blog_sub_title}
+								</div>
 								{myArticles.map((article, index) => (
 									<div
 										className="homepage-article"
@@ -281,9 +588,9 @@ const Homepage = () => {
 								))}
 							</div>
 
-							<div className="homepage-works">
+							{/* <div className="homepage-works">
 								<Works />
-							</div>
+							</div> */}
 						</div>
 
 						<div className="page-footer">
