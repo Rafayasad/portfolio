@@ -583,6 +583,9 @@ const Homepage = () => {
 											title={article().title}
 											description={article().description}
 											link={"/article/" + (index + 1)}
+											redirect={
+												"https://medium.com/@asadrafay998/how-to-deploy-a-single-page-application-on-github-pages-e8226399c78f"
+											}
 										/>
 									</div>
 								))}
