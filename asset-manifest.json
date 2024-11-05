@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a0fda269.css",
+    "main.js": "/static/js/main.bd986771.js",
+    "static/js/787.f2394fa9.chunk.js": "/static/js/787.f2394fa9.chunk.js",
+    "static/media/OPD-main-1.gif": "/static/media/OPD-main-1.98da86bcfc4f89630c32.gif",
+    "static/media/OPD-mainmob-1.gif": "/static/media/OPD-mainmob-1.11bf1d1177111cb054c3.gif",
+    "static/media/OPD-web-1-crop.gif": "/static/media/OPD-web-1-crop.ca83441c690fc6a1ae3e.gif",
+    "static/media/OPD-main-2.png": "/static/media/OPD-main-2.669db8f5671267d90674.png",
+    "static/media/OPD-main-1.png": "/static/media/OPD-main-1.6968a6cfd991b28f4fe9.png",
+    "static/media/Ilyaslogo.png": "/static/media/Ilyaslogo.5c7a2a28e2c5c9457e3c.png",
+    "static/media/go-main-1.svg": "/static/media/go-main-1.eed30adc0ea5fb69de0e32322c0b17d0.svg",
+    "static/media/project-1.png": "/static/media/project-1.76fa2fb1905bce861c14.png",
+    "index.html": "/index.html",
+    "main.a0fda269.css.map": "/static/css/main.a0fda269.css.map",
+    "main.bd986771.js.map": "/static/js/main.bd986771.js.map",
+    "787.f2394fa9.chunk.js.map": "/static/js/787.f2394fa9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0fda269.css",
+    "static/js/main.bd986771.js"
+  ]
+}
