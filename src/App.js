@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import ReactGA from "react-ga4";
 
 import Homepage from "./pages/homepage";
@@ -24,7 +24,11 @@ function App() {
 	return (
 		<div className="App">
 			<Routes>
-				<Route path="/" element={<Homepage />} />
+				<Route
+					path="/"
+					element={<Navigate to="/portfolio" replace />}
+				/>
+				<Route index path="/portfolio" element={<Homepage />} />
 				<Route path="/about" element={<About />} />
 				<Route path="/projects" element={<Projects />} />
 				<Route
