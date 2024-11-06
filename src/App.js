@@ -29,15 +29,18 @@ function App() {
 					element={<Navigate to="/portfolio" replace />}
 				/>
 				<Route index path="/portfolio" element={<Homepage />} />
-				<Route path="/about" element={<About />} />
-				<Route path="/projects" element={<Projects />} />
+				<Route path="/portfolio/about" element={<About />} />
+				<Route path="/portfolio/projects" element={<Projects />} />
 				<Route
-					path="/project-details/:projectId"
+					path="/portfolio/project-details/:projectId"
 					element={<ProjectDetails />}
 				/>
-				<Route path="/articles" element={<Articles />} />
-				<Route path="/article/:slug" element={<ReadArticle />} />
-				<Route path="/contact" element={<Contact />} />
+				<Route path="/portfolio/articles" element={<Articles />} />
+				<Route
+					path="/portfolio/article/:slug"
+					element={<ReadArticle />}
+				/>
+				<Route path="/portfolio/contact" element={<Contact />} />
 				<Route path="*" element={<Notfound />} />
 			</Routes>
 		</div>

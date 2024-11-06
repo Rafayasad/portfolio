@@ -450,13 +450,18 @@ const Homepage = () => {
 			<div className="page-content">
 				{/* <NavBar active="home" /> */}
 				<div className="content-wrapper">
+					<div className="projects-logo-container">
+						<div className="projects-logo">
+							<Logo width={46} />
+						</div>
+					</div>
 					{/* <div className="homepage-logo-container">
 						<div style={logoStyle}>
 							<Logo width={logoSize} link={false} />
 						</div>
 					</div> */}
 
-					<div className="homepage-container">
+					<div className="homepage-container mt-12">
 						<div className="homepage-first-area">
 							<div className="homepage-first-area-left-side">
 								<div className="title homepage-title yellowGrad">
@@ -554,10 +559,10 @@ const Homepage = () => {
 							{INFO.homepage.skill_sub_title}
 						</div>
 						<div className="my-4">{myTechStack()}</div>
-						<div className="text-3xl font-black yellowGrad mt-10">
+						<div className="text-2xl font-black yellowGrad mt-20">
 							{INFO.homepage.project_title}
 						</div>
-						<div className="title homepage-title blueGrad">
+						<div className="title-two homepage-title blueGrad">
 							{INFO.homepage.project_sub_title}
 						</div>
 						<div className="homepage-projects">

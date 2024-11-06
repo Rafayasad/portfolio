@@ -1,4 +1,5 @@
 import React from "react";
+import { photos } from "../../assets";
 import { Link } from "react-router-dom";
 
 import INFO from "../../data/user";
@@ -13,7 +14,7 @@ const Logo = (props) => {
 	}
 
 	const imageElement = (
-		<img src={INFO.main.logo} alt="logo" className="logo" width={width} />
+		<img src={photos.logo} alt="logo" className="logo" width={width} />
 	);
 
 	return (
