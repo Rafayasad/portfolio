@@ -7,6 +7,7 @@ import fitnfight from "./images/fitnfight.png";
 import ilyasSalon from "./images/Ilyaslogo.png";
 import pengSalon from "./images/peng.png";
 import headerLogo from "./images/logo.png";
+import tipsterLogo from "./images/tipster.PNG";
 
 // gifs
 import gifAbuDhabiOne from "./gifs/OPD-main-1.gif";
@@ -20,6 +21,8 @@ import abuDhabiVideo from "./videos/abuDhabi.mp4";
 import abuDhabiOpendataVideo from "./videos/abuDhabiOpenData.mp4";
 import ilyasVideo from "./videos/ilyasSalon.mp4";
 import pengVideo from "./videos/peng.mp4";
+import fitnfightVideo from "./videos/fitnfight.mp4";
+import tipsterVideo from "./videos/tipster.mp4";
 
 export const photos = {
 	logo: headerLogo,
@@ -30,6 +33,7 @@ export const photos = {
 	p5: fitnfight,
 	p6: ilyasSalon,
 	p7: pengSalon,
+	p8: tipsterLogo,
 };
 
 export const gifs = {
@@ -45,4 +49,6 @@ export const videos = {
 	v3: goVideo,
 	v4: ilyasVideo,
 	v5: pengVideo,
+	v6: fitnfightVideo,
+	v7: tipsterVideo,
 };
